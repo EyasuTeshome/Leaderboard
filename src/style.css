@@ -1,0 +1,62 @@
+body {
+  background-color: white;
+}
+
+.list-container {
+  border: 1px solid black;
+  width: 50%;
+}
+
+table {
+  width: 100%;
+  margin: 0;
+}
+
+.list-container tr:nth-child(odd) {
+  background-color: rgb(205, 197, 197);
+}
+
+.list-header {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  margin-right: auto;
+}
+
+.button-refresh {
+  height: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.add {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+}
+
+.container {
+  display: flex;
+}
+
+input {
+  margin-bottom: 0.5rem;
+  width: 10rem;
+}
+
+button {
+  box-shadow: 3px 6px;
+}
+
+form button {
+  width: 5rem;
+  margin-left: 5.5rem;
+}
