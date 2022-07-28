@@ -22,7 +22,7 @@ To successfully utilize this project first of all you need to clone or download 
 . WebPack
 
 ## Live Demo
-[Click here to see the Live Demo](https://eyasuteshome.github.io/Todo-List/)
+Not Available
 
 ## Author
 
