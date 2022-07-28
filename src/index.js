@@ -7,8 +7,7 @@ const submitBtn = document.querySelector('.form-btn');
 const displayLists = document.querySelector('.list-table');
 const refreshBtn = document.querySelector('.button-refresh');
 
-// Unique identifier of the created game
-const gameId = 'qDkPZy2HPprxjSGYAAbx';
+const gameId = 'NPlIWoD8HORIahnyXOzG';
 
 const submitScore = async(userName, userScore) => {
     const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores`, {
@@ -36,8 +35,8 @@ const fetchDataFromAPI = async() => {
     displayLists.innerHTML = values;
 };
 
-submitBtn.addEventListener('click', async() => {
-    await submitScore(userName.value, userScore.value);
+submitBtn.addEventListener('click', () => {
+    submitScore(userName.value, userScore.value);
     userName.value = '';
     userScore.value = '';
     fetchDataFromAPI();
