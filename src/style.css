@@ -1,5 +1,7 @@
+@import url('http://fonts.cdnfonts.com/css/games');
+
 body {
-  background-image: url('./img/14.jpeg');
+  background-image: url('https://www.wallpaperkiss.com/wimg/b/116-1164229_big.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   margin: 3rem 15rem;
@@ -24,6 +26,7 @@ table {
 
 h1 {
   text-align: center;
+  font-family: 'Games', sans-serif;
 }
 
 .list-container tr:nth-child(odd) {
@@ -47,7 +50,9 @@ h3 {
 }
 
 .button-refresh {
-  height: 2rem;
+  background: none;
+  border: none;
+  height: 6rem;
 }
 
 form {
@@ -78,20 +83,18 @@ input {
   font-size: 2rem;
 }
 
-button {
-  box-shadow: 3px 6px;
-}
-
 .form-btn {
-  width: 5rem;
-  height: 2rem;
+  background: none;
+  border: none;
+  width: 12rem;
+  height: 4rem;
   margin-left: auto;
-  margin-right: 3rem;
+  margin-right: 2.5rem;
 }
 
 @media screen and (max-width: 968px) {
   body {
-    background-image: url('./img/14.jpeg');
+    background-image: url('https://www.wallpaperkiss.com/wimg/b/116-1164229_big.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: 3rem 1rem;
@@ -135,7 +138,8 @@ button {
   }
 
   .button-refresh {
-    height: 2rem;
+    height: 5rem;
+    width: 5rem;
   }
 
   form {
@@ -166,13 +170,9 @@ button {
     font-size: 2rem;
   }
 
-  button {
-    box-shadow: 3px 6px;
-  }
-
   .form-btn {
-    width: 5rem;
-    height: 2rem;
+    width: 12rem;
+    height: 4rem;
     margin: 0;
   }
 }
