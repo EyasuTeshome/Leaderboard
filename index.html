@@ -1,0 +1,39 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <script defer src="/runtime.bundle.js"></script>
+    <script defer src="/main.bundle.js"></script>
+<script defer src="/runtime.bundle.js"></script><script defer src="/main.bundle.js"></script></head>
+
+<body>
+    <h1>Leaderboard</h1>
+    <div class="list"></div>
+    <div class="list-header">
+        <h3>Recent Scores</h3>
+        <button class="button-refresh">Refresh</button>
+    </div>
+    <div class="container">
+        <div class="list-container">
+            <table class="list-table">
+
+            </table>
+        </div>
+        <div class="list"></div>
+        <div class="add">
+            <h2>Add Your Scores</h2>
+            <form action="POST">
+                <input class="name" type="text" placeholder="Your name">
+                <input class="score" type="text" placeholder="Your score">
+            </form>
+            <button class="form-btn">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
