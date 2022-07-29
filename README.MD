@@ -1,7 +1,7 @@
 
 
 # To do List
-This is a simple leaderboard website. In complition the website will enable the user to add score.
+This is a simple leaderboard website. The website enables the user to add user name and user score.
 ## Built With
 
 - HTML
@@ -22,7 +22,7 @@ To successfully utilize this project first of all you need to clone or download 
 . WebPack
 
 ## Live Demo
-Not Available
+[Live Demo](https://eyasuteshome.github.io/Leaderboard/)
 
 ## Author
 
