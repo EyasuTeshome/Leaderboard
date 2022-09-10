@@ -1,5 +1,6 @@
 /* eslint-disable */
 import './style.css';
+import logo from './img/111.png'
 
 const userName = document.querySelector('.name');
 const userScore = document.querySelector('.score');
@@ -23,6 +24,8 @@ const submitScore = async(userName, userScore) => {
     const gameResult = await response.json();
     return gameResult;
 };
+
+submitBtn.innerHTML = `<img class="form-btn" src=${logo} alt="">`
 
 const fetchDataFromAPI = async() => {
     const response = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameId}/scores`);
