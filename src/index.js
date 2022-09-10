@@ -24,7 +24,6 @@ const submitScore = async(userName, userScore) => {
     const gameResult = await response.json();
     return gameResult;
 };
-
 submitBtn.innerHTML = `<img class="form-btn" src=${logo} alt="">`
 
 const fetchDataFromAPI = async() => {
